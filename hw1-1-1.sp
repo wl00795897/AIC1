@@ -19,7 +19,7 @@ MN VDD VDD GND GND n_18 w=w l=l m=1
  * Analysis
 
 .op
-.sweep l 0.18u 10u 0.01u
+.dc l 0.18u 10u 0.01u
 
 .probe Id=LX4(MN)
 .probe Cg=LX18(MN)
